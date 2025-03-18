@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Formulário</title>
+</head>
+<body>
+
+    <h2>Formulário Completo</h2>
+
+    <form action="#" method="post">
+        
+        <!-- Campo de entrada de texto -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <!-- Campo de senha -->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha"><br><br>
+
+        <!-- Campo de e-mail -->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- Campo de telefone -->
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone"><br><br>
+
+        <!-- Campo de número -->
+        <label for="numero">Número:</label>
+        <input type="number" id="numero" name="numero"><br><br>
+
+        <!-- Campo de URL -->
+        <label for="site">Site:</label>
+        <input type="url" id="site" name="site"><br><br>
+
+        <!-- Campo de data -->
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data"><br><br>
+
+        <!-- Campo de hora -->
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora"><br><br>
+
+        <!-- Campo de cor -->
+        <label for="cor">Escolha uma cor:</label>
+        <input type="color" id="cor" name="cor"><br><br>
+
+        <!-- Caixa de seleção -->
+        <label for="aceito">Aceito os termos:</label>
+        <input type="checkbox" id="aceito" name="aceito"><br><br>
+
+        <!-- Botões de opção (radio) -->
+        <fieldset>
+            <legend>Escolha seu gênero:</legend>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+            
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label>
+        </fieldset><br>
+
+        <!-- Campo de arquivo -->
+        <label for="arquivo">Upload de arquivo:</label>
+        <input type="file" id="arquivo" name="arquivo"><br><br>
+
+        <!-- Lista suspensa -->
+        <label for="pais">Selecione um país:</label>
+        <select id="pais" name="pais">
+            <option value="br">Brasil</option>
+            <option value="us">Estados Unidos</option>
+            <option value="jp">Japão</option>
+        </select><br><br>
+
+        <!-- Área de texto -->
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="30"></textarea><br><br>
+
+        <!-- Campo de pesquisa -->
+        <label for="pesquisa">Pesquisar:</label>
+        <input type="search" id="pesquisa" name="pesquisa"><br><br>
+
+        <!-- Campo de intervalo (range) -->
+        <label for="nivel">Nível de satisfação:</label>
+        <input type="range" id="nivel" name="nivel" min="0" max="10"><br><br>
+
+        <!-- Campo de oculto -->
+        <input type="hidden" name="token" value="123456789">
+
+        <!-- Botão de envio -->
+        <input type="submit" value="Enviar">
+
+        <!-- Botão de reset -->
+        <input type="reset" value="Limpar">
+        
+        <!-- Botão normal -->
+        <button type="button" onclick="alert('Botão clicado!')">Clique aqui</button>
+
+    </form>
+
+</body>
+</html>
