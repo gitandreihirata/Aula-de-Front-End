@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Meu Blog Pessoal</title>
+</head>
+<body>
+    <!--Cabeçalho / Cima-->
+    <header>
+        <h1> Meu Blog Pessoal - Bem Vindo</h1>
+    </header>
+
+    <!--Menu-->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Início</a>
+            </li>
+            <li>
+                <a href="#">Sobre</a>
+            </li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Conteudo-->
+    <main>
+        <h2 class="texto_titulo">Entre em contato conosco</h2>
+        <br>
+        <form action="#" method="post" style="text-align: center;">
+
+            <!-- Campo de entrada de texto -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+    
+            <!-- Campo de e-mail -->
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email"><br><br>
+    
+            <!-- Lista suspensa -->
+            <label for="assunto">Selecione um assunto:</label>
+            <select id="assunto" name="pais">
+                <option value="br">Dúvidas</option>
+                <option value="us">Reclamações</option>
+                <option value="jp">Compras</option>
+            </select><br><br>
+    
+            <!-- Área de texto -->
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="30"></textarea><br><br>
+
+            <!-- Botão de envio -->
+            <input type="submit" value="Enviar">
+    
+            <!-- Botão de reset -->
+            <input type="reset" value="Limpar">
+
+        </form>
+    </main>
+
+
+    <!--Rodapé / Baixo-->
+    <footer>
+        <p>
+            &copy;2025 Andrei Hirata. Todos os direitos reservados
+        </p>
+    </footer>
+  
+</body>
+</html>
