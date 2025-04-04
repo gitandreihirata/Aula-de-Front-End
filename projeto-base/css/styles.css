@@ -23,7 +23,7 @@ footer{
     color: aliceblue;
     padding: 15px;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
 }
 
@@ -74,6 +74,8 @@ article{
 .coluna{
     flex: 1;
     padding: 1px;
+    align-items: center;
+    justify-content: center;
 }
 
 .texto_azul{
@@ -84,6 +86,41 @@ article{
     text-align: center;
     color: azure;
 }
+.texto_sobre_titulo{
+    text-align: left;
+    color: chocolate;
+
+}
+
+.texto_sobre_information{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: black;
+    font-size: 12px;
+    padding: 5px;
+}
+.texto_sobre_information_value{
+    text-align: left;
+    color: azure;
+    font-size: 12px;
+}
+
+.tblesquerda{
+background-color: #c89010;
+text-align: left;
+}
+
+.tbldireita{
+background-color: yellow;
+text-align: right;
+}
+
+button{
+    background-color: coral;
+    width: 100px;
+}
+
+
 
 
 
